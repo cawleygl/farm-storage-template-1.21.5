@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "farm-storage:apple_bushel",
+    "farm-storage:beetroot_box",
+    "farm-storage:carrot_crate",
+    "farm-storage:egg_basket",
+    "farm-storage:poisonous_potato_sack",
+    "farm-storage:potato_sack",
+    "farm-storage:beetroot_seed_pail",
+    "farm-storage:cocoa_beans_pail",
+    "farm-storage:melon_seed_pail",
+    "farm-storage:pumpkin_seed_pail",
+    "farm-storage:wheat_seed_pail"
+  ]
+}

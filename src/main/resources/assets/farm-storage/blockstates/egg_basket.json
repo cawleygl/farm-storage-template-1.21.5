@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "farm-storage:block/egg_basket",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "farm-storage:block/egg_basket",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "farm-storage:block/egg_basket"
+    },
+    "facing=west": {
+      "model": "farm-storage:block/egg_basket",
+      "y": 90
+    }
+  }
+}

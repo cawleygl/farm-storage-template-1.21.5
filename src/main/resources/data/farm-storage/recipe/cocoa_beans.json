@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "farm-storage:cocoa_beans_pail"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:cocoa_beans"
+  }
+}

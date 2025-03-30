@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "bluesteel42.farmstorage.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

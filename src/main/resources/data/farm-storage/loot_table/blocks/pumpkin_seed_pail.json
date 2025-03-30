@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farm-storage:pumpkin_seed_pail"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "farm-storage:blocks/pumpkin_seed_pail"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "model": "farm-storage:block/cocoa_beans_pail",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "farm-storage:block/cocoa_beans_pail",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "farm-storage:block/cocoa_beans_pail"
+    },
+    "facing=east": {
+      "model": "farm-storage:block/cocoa_beans_pail",
+      "y": 90
+    }
+  }
+}

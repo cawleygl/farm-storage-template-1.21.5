@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:melon_seeds"
+  ],
+  "result": {
+    "count": 1,
+    "id": "farm-storage:melon_seed_pail"
+  }
+}
