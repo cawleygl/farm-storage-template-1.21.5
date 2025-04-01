@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg",
+    "minecraft:brown_egg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "farm-storage:brown_egg_basket"
+  }
+}

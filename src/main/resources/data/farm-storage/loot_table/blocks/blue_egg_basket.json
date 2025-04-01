@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farm-storage:blue_egg_basket"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "farm-storage:blocks/blue_egg_basket"
+}

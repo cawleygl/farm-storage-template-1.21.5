@@ -19,6 +19,8 @@ public class ModBlocks {
     public static final Block BEETROOT_BOX = registerCropBlock("beetroot_box", Block::new, MapColor.TERRACOTTA_RED);
     public static final Block CARROT_CRATE = registerCropBlock("carrot_crate", GlazedTerracottaBlock::new, MapColor.ORANGE);
     public static final Block EGG_BASKET = registerCropBlock("egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW);
+    public static final Block BROWN_EGG_BASKET = registerCropBlock("brown_egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW);
+    public static final Block BLUE_EGG_BASKET = registerCropBlock("blue_egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW);
     public static final Block POTATO_SACK = registerCropBlock("potato_sack", GlazedTerracottaBlock::new, MapColor.YELLOW);
     public static final Block POISONOUS_POTATO_SACK = registerCropBlock("poisonous_potato_sack", GlazedTerracottaBlock::new, MapColor.PALE_GREEN);
 
@@ -50,6 +52,8 @@ public class ModBlocks {
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.WHEAT_SEED_PAIL);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.POISONOUS_POTATO_SACK);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.POTATO_SACK);
+                    itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.BLUE_EGG_BASKET);
+                    itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.BROWN_EGG_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.EGG_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.CARROT_CRATE);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.BEETROOT_BOX);
