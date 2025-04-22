@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather",
+    "minecraft:leather"
+  ],
+  "result": {
+    "count": 1,
+    "id": "farm-storage:leather_roll"
+  }
+}

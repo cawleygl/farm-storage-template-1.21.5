@@ -11,5 +11,8 @@
   "block.farm-storage.cocoa_beans_pail": "Cocoa Bean Pail",
   "block.farm-storage.melon_seed_pail": "Melon Seed Pail",
   "block.farm-storage.pumpkin_seed_pail": "Pumpkin Seed Pail",
-  "block.farm-storage.wheat_seed_pail": "Wheat Seed Pail"
+  "block.farm-storage.wheat_seed_pail": "Wheat Seed Pail",
+  "block.farm-storage.sugar_cube": "Sugar Cube",
+  "block.farm-storage.leather_roll": "Leather Roll",
+  "block.farm-storage.feather_bag": "Feather Bag"
 }

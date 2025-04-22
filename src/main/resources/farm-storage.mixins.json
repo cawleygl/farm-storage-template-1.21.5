@@ -3,7 +3,12 @@
 	"package": "bluesteel42.farmstorage.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"DataTrackerAccessor",
+		"EatingTicksAccessor",
+		"HorseFlagsAccessor",
+		"RandomAccessor",
+		"WorldAccessor",
+		"HorsesEatSugarCubesMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

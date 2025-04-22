@@ -1,0 +1,17 @@
+// 1.21.5	-999999999-01-01T00:00:00	Farm Storage/Block Loot Tables
+6928d86ecee1f9601e5adcb4d5419027e4208395 data/farm-storage/loot_table/blocks/apple_bushel.json
+e2e1175ff1daa84b1ff2de34323ca88fcfc5d508 data/farm-storage/loot_table/blocks/beetroot_box.json
+2eaa3c0e18fab5579f38f2256bf217669e75ba05 data/farm-storage/loot_table/blocks/beetroot_seed_pail.json
+958920511ae679f354693efe26a99d537bccc078 data/farm-storage/loot_table/blocks/blue_egg_basket.json
+45bdabb8f39f67881728b9b107de4d692c939d5c data/farm-storage/loot_table/blocks/brown_egg_basket.json
+da9cf6d94690e70f9a1de8fe148ac8bfb107ef3c data/farm-storage/loot_table/blocks/carrot_crate.json
+f234ebcceda7d86b320d6d74d3899d89ce8b121a data/farm-storage/loot_table/blocks/cocoa_beans_pail.json
+1c7c77590068b2afa487254421ee4dc3a0f0cfab data/farm-storage/loot_table/blocks/egg_basket.json
+d6fedbeb236891fcf2d8ea0cd00f36489bf4c8b5 data/farm-storage/loot_table/blocks/feather_bag.json
+86b9471e90eec16ac2b40a6f442dd54b70add900 data/farm-storage/loot_table/blocks/leather_roll.json
+0f3349fd48d5f1c322e42fdb79de188c62f96d5b data/farm-storage/loot_table/blocks/melon_seed_pail.json
+575fffa97cc7da446e4908194b13a7e05b881165 data/farm-storage/loot_table/blocks/poisonous_potato_sack.json
+71b61229fca5d04a7ccbb62eb3be5fdb56a8909f data/farm-storage/loot_table/blocks/potato_sack.json
+ebb46cbff7c1200b530d6dce249299ba53110ada data/farm-storage/loot_table/blocks/pumpkin_seed_pail.json
+dca468f7174dc055de58ecf03f1a3c722ec5d480 data/farm-storage/loot_table/blocks/sugar_cube.json
+1f13bf86e2506d9404ac52a9a601ee979dd48e3a data/farm-storage/loot_table/blocks/wheat_seed_pail.json

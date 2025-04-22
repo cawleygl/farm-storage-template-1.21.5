@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "farm-storage:block/feather_bag",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "farm-storage:block/feather_bag"
+    },
+    "facing=south": {
+      "model": "farm-storage:block/feather_bag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "farm-storage:block/feather_bag",
+      "y": 270
+    }
+  }
+}
