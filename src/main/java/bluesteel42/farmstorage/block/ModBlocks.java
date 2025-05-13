@@ -25,7 +25,7 @@ public class ModBlocks {
     public static final Block POISONOUS_POTATO_SACK = registerCropBlock("poisonous_potato_sack", GlazedTerracottaBlock::new, MapColor.YELLOW, BlockSoundGroup.GRASS);
 
     public static final Block SUGAR_CUBE = registerCropBlock("sugar_cube", Block::new, MapColor.WHITE, BlockSoundGroup.CALCITE);
-    public static final Block FEATHER_BAG = registerCropBlock("feather_bag", GlazedTerracottaBlock::new, MapColor.WHITE, BlockSoundGroup.GRASS);
+    public static final Block FEATHER_BAG = registerCropBlock("feather_bag", GlazedTerracottaBlock::new, MapColor.WHITE, BlockSoundGroup.WOOL);
     public static final Block LEATHER_ROLL = registerCropBlock("leather_roll", PillarBlock::new, MapColor.ORANGE, BlockSoundGroup.WOOL);
 
     public static final Block BEETROOT_SEED_PAIL = registerCropBlock("beetroot_seed_pail", PailBlock::new, MapColor.TERRACOTTA_WHITE, BlockSoundGroup.IRON);
