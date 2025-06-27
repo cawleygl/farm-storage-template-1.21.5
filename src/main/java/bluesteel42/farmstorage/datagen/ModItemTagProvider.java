@@ -16,5 +16,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.HORSE_FOOD).add(ModBlocks.SUGAR_CUBE.asItem());
+
+        getOrCreateTagBuilder(ItemTags.DAMPENS_VIBRATIONS).add(ModBlocks.LEATHER_ROLL.asItem());
+        getOrCreateTagBuilder(ItemTags.DAMPENS_VIBRATIONS).add(ModBlocks.FEATHER_BAG.asItem());
     }
 }

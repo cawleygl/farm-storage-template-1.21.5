@@ -1,7 +1,7 @@
 {
   "variants": {
     "axis=x": {
-      "model": "farm-storage:block/leather_roll_horizontal",
+      "model": "farm-storage:block/leather_roll",
       "x": 90,
       "y": 90
     },
@@ -9,7 +9,7 @@
       "model": "farm-storage:block/leather_roll"
     },
     "axis=z": {
-      "model": "farm-storage:block/leather_roll_horizontal",
+      "model": "farm-storage:block/leather_roll",
       "x": 90
     }
   }

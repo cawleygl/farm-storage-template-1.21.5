@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "sugar",
   "ingredients": [
     "farm-storage:sugar_cube"
   ],

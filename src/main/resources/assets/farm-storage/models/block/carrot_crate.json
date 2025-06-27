@@ -1,32 +1,12 @@
 {
-    "parent": "block/cube",
+    "parent": "minecraft:block/cube",
     "textures": {
-        "bottom": "farm-storage:block/carrot_crate_bottom",
-        "left": "farm-storage:block/carrot_crate_left",
-        "right": "farm-storage:block/carrot_crate_right",
-        "top": "farm-storage:block/carrot_crate_top",
-        "front": "farm-storage:block/carrot_crate_front",
-        "back": "farm-storage:block/carrot_crate_back",
-        "particle": "farm-storage:block/carrot_crate_top"
-    },
-    "display": {
-        "firstperson_righthand": {
-            "rotation": [ 0, 135, 0 ],
-            "translation": [ 0, 0, 0 ],
-            "scale": [ 0.40, 0.40, 0.40 ]
-        }
-    },
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "down":  { "uv": [ 0,  0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
-                "up":    { "uv": [ 0,  0, 16, 16 ], "texture": "#top", "cullface": "up" },
-                "north": { "uv": [ 0,  0, 16, 16 ], "texture": "#front", "cullface": "north" },
-                "south": { "uv": [ 0,  0, 16, 16 ], "texture": "#back", "cullface": "south" },
-                "west":  { "uv": [ 0,  0, 16, 16 ], "texture": "#right", "cullface": "west" },
-                "east":  { "uv": [ 0,  0, 16, 16 ], "texture": "#left", "cullface": "east" }
-            }
-        }
-    ]
+        "down": "farm-storage:block/carrot_crate_bottom",
+        "east": "farm-storage:block/carrot_crate_right",
+        "north": "farm-storage:block/carrot_crate_front",
+        "particle": "farm-storage:block/carrot_crate_top",
+        "south": "farm-storage:block/carrot_crate_back",
+        "up": "farm-storage:block/carrot_crate_top",
+        "west": "farm-storage:block/carrot_crate_left"
+    }
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "farm-storage:block/leather_roll_top",
-    "side": "farm-storage:block/leather_roll"
-  }
-}

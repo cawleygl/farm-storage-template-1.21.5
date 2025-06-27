@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "down": "farm-storage:block/potato_sack_bottom",
+        "east": "farm-storage:block/potato_sack_side",
+        "north": "#front",
+        "particle": "#top",
+        "south": "farm-storage:block/potato_sack_side",
+        "up": "#top",
+        "west": "farm-storage:block/potato_sack_side"
+    }
+}

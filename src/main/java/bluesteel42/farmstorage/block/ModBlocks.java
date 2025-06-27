@@ -24,19 +24,36 @@ public class ModBlocks {
     public static final Block POTATO_SACK = registerCropBlock("potato_sack", GlazedTerracottaBlock::new, MapColor.YELLOW, BlockSoundGroup.GRASS);
     public static final Block POISONOUS_POTATO_SACK = registerCropBlock("poisonous_potato_sack", GlazedTerracottaBlock::new, MapColor.YELLOW, BlockSoundGroup.GRASS);
 
-    public static final Block SUGAR_CUBE = registerCropBlock("sugar_cube", Block::new, MapColor.WHITE, BlockSoundGroup.CALCITE);
-    public static final Block FEATHER_BAG = registerCropBlock("feather_bag", GlazedTerracottaBlock::new, MapColor.WHITE, BlockSoundGroup.WOOL);
-    public static final Block LEATHER_ROLL = registerCropBlock("leather_roll", PillarBlock::new, MapColor.ORANGE, BlockSoundGroup.WOOL);
+    public static final Block BEETROOT_SEED_PAIL = registerCropBlock("beetroot_seed_pail", PailBlock::new, MapColor.TERRACOTTA_WHITE, BlockSoundGroup.GRASS);
+    public static final Block COCOA_BEANS_PAIL = registerCropBlock("cocoa_beans_pail", PailBlock::new, MapColor.SPRUCE_BROWN, BlockSoundGroup.GRASS);
+    public static final Block MELON_SEED_PAIL = registerCropBlock("melon_seed_pail", PailBlock::new, MapColor.TERRACOTTA_BLACK, BlockSoundGroup.GRASS);
+    public static final Block PUMPKIN_SEED_PAIL = registerCropBlock("pumpkin_seed_pail", PailBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.GRASS);
+    public static final Block WHEAT_SEED_PAIL = registerCropBlock("wheat_seed_pail", PailBlock::new, MapColor.EMERALD_GREEN, BlockSoundGroup.GRASS);
 
-    public static final Block BEETROOT_SEED_PAIL = registerCropBlock("beetroot_seed_pail", PailBlock::new, MapColor.TERRACOTTA_WHITE, BlockSoundGroup.IRON);
-    public static final Block COCOA_BEANS_PAIL = registerCropBlock("cocoa_beans_pail", PailBlock::new, MapColor.SPRUCE_BROWN, BlockSoundGroup.IRON);
-    public static final Block MELON_SEED_PAIL = registerCropBlock("melon_seed_pail", PailBlock::new, MapColor.TERRACOTTA_BLACK, BlockSoundGroup.IRON);
-    public static final Block PUMPKIN_SEED_PAIL = registerCropBlock("pumpkin_seed_pail", PailBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.IRON);
-    public static final Block WHEAT_SEED_PAIL = registerCropBlock("wheat_seed_pail", PailBlock::new, MapColor.EMERALD_GREEN, BlockSoundGroup.IRON);
+    public static final Block SUGAR_CUBE = register("sugar_cube", Block::new,
+            AbstractBlock.Settings.create()
+            .mapColor(MapColor.WHITE)
+            .instrument(NoteBlockInstrument.BASEDRUM)
+            .sounds(BlockSoundGroup.CALCITE)
+            .requiresTool()
+            .strength(0.75F));
+    public static final Block FEATHER_BAG = register("feather_bag", FeatherBagBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.WHITE).instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable());
+    public static final Block LEATHER_ROLL = register("leather_roll", PillarBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable());
+
 
     private static Block registerCropBlock(String path, Function<AbstractBlock.Settings, Block> factory, MapColor mapColor, BlockSoundGroup sounds) {
         AbstractBlock.Settings settings = AbstractBlock.Settings.create().mapColor(mapColor).instrument(NoteBlockInstrument.BANJO).strength(0.5F).sounds(sounds);
 
+        final Identifier identifier = Identifier.of(FarmStorage.MOD_ID, path);
+        final RegistryKey<Block> registryKey = RegistryKey.of(RegistryKeys.BLOCK, identifier);
+
+        final Block block = Blocks.register(registryKey, factory, settings);
+        Items.register(block);
+
+        return block;
+    }
+
+    private static Block register(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(FarmStorage.MOD_ID, path);
         final RegistryKey<Block> registryKey = RegistryKey.of(RegistryKeys.BLOCK, identifier);
 
