@@ -35,8 +35,8 @@ public class ModBlocks {
             .mapColor(MapColor.WHITE)
             .instrument(NoteBlockInstrument.BASEDRUM)
             .sounds(BlockSoundGroup.CALCITE)
-            .requiresTool()
             .strength(0.75F));
+
     public static final Block FEATHER_BAG = register("feather_bag", FeatherBagBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.WHITE).instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable());
     public static final Block LEATHER_ROLL = register("leather_roll", PillarBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable());
 
