@@ -21,7 +21,7 @@ public class FarmStorage implements ModInitializer {
 		// Proceed with mild caution.
 		ModBlocks.initialize();
 		ModRegistries.registerCompostables();
-
+		ModRegistries.registerFlammables();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
