@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "melon_seeds",
+  "ingredients": [
+    "farm-storage:melon_seed_pail"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:melon_seeds"
+  }
+}

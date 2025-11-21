@@ -20,6 +20,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.EGG_BASKET);
         addDrop(ModBlocks.BROWN_EGG_BASKET);
         addDrop(ModBlocks.BLUE_EGG_BASKET);
+        addDrop(ModBlocks.SPOTTED_EGG_BASKET);
+        addDrop(ModBlocks.RED_MUSHROOM_BASKET);
+        addDrop(ModBlocks.BROWN_MUSHROOM_BASKET);
         addDrop(ModBlocks.POTATO_SACK);
         addDrop(ModBlocks.POISONOUS_POTATO_SACK);
         addDrop(ModBlocks.SUGAR_CUBE);
@@ -29,6 +32,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.COCOA_BEANS_PAIL);
         addDrop(ModBlocks.MELON_SEED_PAIL);
         addDrop(ModBlocks.PUMPKIN_SEED_PAIL);
+        addDrop(ModBlocks.GREEN_PUMPKIN_SEED_PAIL);
+        addDrop(ModBlocks.WHITE_PUMPKIN_SEED_PAIL);
         addDrop(ModBlocks.WHEAT_SEED_PAIL);
     }
 }

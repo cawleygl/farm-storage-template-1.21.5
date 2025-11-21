@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pumpkin_seed_pail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farm-storage:pumpkin_seed_pail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farm-storage:pumpkin_seeds_from_pumpkin_seed_pail"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pumpkin_seed_pail"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farm-storage:pumpkin_seeds_from_pumpkin_seed_pail"
+    ]
+  }
+}

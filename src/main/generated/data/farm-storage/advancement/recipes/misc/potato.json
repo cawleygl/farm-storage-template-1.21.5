@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_potato_sack": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farm-storage:potato_sack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farm-storage:potato"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_potato_sack"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farm-storage:potato"
+    ]
+  }
+}

@@ -39,7 +39,7 @@ public class HorsesEatSugarCubesMixin {
 	private void setEating(AbstractHorseEntity thisObject) {
 		EatingTicksAccessor eatingTicksAccessor = (EatingTicksAccessor) (Object) this;
 
-		if (!thisObject.getWorld().isClient) {
+		if (!thisObject.getEntityWorld().isClient()) {
 			eatingTicksAccessor.setEatingTicks(1);
 			setHorseFlag(thisObject, 64, true);
 		}
@@ -68,14 +68,14 @@ public class HorsesEatSugarCubesMixin {
 			}
 
 			if (thisObject.isBaby() && i > 0) {
-				thisObject.getWorld().addParticleClient(ParticleTypes.HAPPY_VILLAGER, thisObject.getParticleX((double) 1.0F), thisObject.getRandomBodyY() + (double) 0.5F, thisObject.getParticleZ((double) 1.0F), (double) 0.0F, (double) 0.0F, (double) 0.0F);
-				if (!thisObject.getWorld().isClient) {
+				thisObject.getEntityWorld().addParticleClient(ParticleTypes.HAPPY_VILLAGER, thisObject.getParticleX((double) 1.0F), thisObject.getRandomBodyY() + (double) 0.5F, thisObject.getParticleZ((double) 1.0F), (double) 0.0F, (double) 0.0F, (double) 0.0F);
+				if (!thisObject.getEntityWorld().isClient()) {
 					thisObject.growUp(i);
 					bl = true;
 				}
 			}
 
-			if (j > 0 && (bl || !thisObject.isTame()) && thisObject.getTemper() < thisObject.getMaxTemper() && !thisObject.getWorld().isClient) {
+			if (j > 0 && (bl || !thisObject.isTame()) && thisObject.getTemper() < thisObject.getMaxTemper() && !thisObject.getEntityWorld().isClient()) {
 				thisObject.addTemper(j);
 				bl = true;
 			}

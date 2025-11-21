@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_melon_seed_pail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farm-storage:melon_seed_pail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farm-storage:melon_seeds_from_melon_seed_pail"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_melon_seed_pail"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farm-storage:melon_seeds_from_melon_seed_pail"
+    ]
+  }
+}

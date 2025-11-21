@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_leather_roll": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farm-storage:leather_roll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farm-storage:leather"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_leather_roll"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farm-storage:leather"
+    ]
+  }
+}

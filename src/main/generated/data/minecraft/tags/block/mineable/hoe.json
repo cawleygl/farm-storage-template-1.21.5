@@ -6,12 +6,17 @@
     "farm-storage:egg_basket",
     "farm-storage:brown_egg_basket",
     "farm-storage:blue_egg_basket",
+    "farm-storage:spotted_egg_basket",
+    "farm-storage:red_mushroom_basket",
+    "farm-storage:brown_mushroom_basket",
     "farm-storage:potato_sack",
     "farm-storage:poisonous_potato_sack",
     "farm-storage:beetroot_seed_pail",
     "farm-storage:cocoa_beans_pail",
     "farm-storage:melon_seed_pail",
     "farm-storage:pumpkin_seed_pail",
+    "farm-storage:green_pumpkin_seed_pail",
+    "farm-storage:white_pumpkin_seed_pail",
     "farm-storage:wheat_seed_pail"
   ]
 }

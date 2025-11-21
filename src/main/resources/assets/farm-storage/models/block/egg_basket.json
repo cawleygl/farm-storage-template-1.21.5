@@ -1,6 +1,0 @@
-{
-    "parent": "farm-storage:block/template_egg_basket",
-    "textures": {
-        "top": "farm-storage:block/egg_basket_top"
-    }
-}

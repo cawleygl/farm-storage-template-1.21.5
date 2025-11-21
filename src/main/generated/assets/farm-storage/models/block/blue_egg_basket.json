@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "farm-storage:block/egg_basket_bottom",
+    "east": "farm-storage:block/egg_basket_side",
+    "north": "farm-storage:block/egg_basket_front",
+    "particle": "farm-storage:block/blue_egg_basket_top",
+    "south": "farm-storage:block/egg_basket_front",
+    "up": "farm-storage:block/blue_egg_basket_top",
+    "west": "farm-storage:block/egg_basket_side"
+  }
+}

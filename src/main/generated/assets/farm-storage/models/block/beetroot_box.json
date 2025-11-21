@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "farm-storage:block/beetroot_box_bottom",
+    "particle": "farm-storage:block/beetroot_box_top",
+    "side": "farm-storage:block/beetroot_box_side",
+    "top": "farm-storage:block/beetroot_box_top"
+  }
+}

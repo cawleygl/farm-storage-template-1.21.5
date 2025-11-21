@@ -1,7 +1,0 @@
-{
-    "parent": "farm-storage:block/template_potato_sack",
-    "textures": {
-        "top": "farm-storage:block/poisonous_potato_sack_top",
-        "front": "farm-storage:block/poisonous_potato_sack_front"
-    }
-}

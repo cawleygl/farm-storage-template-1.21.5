@@ -15,24 +15,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.APPLE_BUSHEL);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BEETROOT_BOX);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.CARROT_CRATE);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.EGG_BASKET);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BROWN_EGG_BASKET);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BLUE_EGG_BASKET);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.POTATO_SACK);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.POISONOUS_POTATO_SACK);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.APPLE_BUSHEL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BEETROOT_BOX);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.CARROT_CRATE);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.EGG_BASKET);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BROWN_EGG_BASKET);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BLUE_EGG_BASKET);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.SPOTTED_EGG_BASKET);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.RED_MUSHROOM_BASKET);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BROWN_MUSHROOM_BASKET);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.POTATO_SACK);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.POISONOUS_POTATO_SACK);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BEETROOT_SEED_PAIL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.COCOA_BEANS_PAIL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.MELON_SEED_PAIL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.PUMPKIN_SEED_PAIL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.GREEN_PUMPKIN_SEED_PAIL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.WHITE_PUMPKIN_SEED_PAIL);
+        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.WHEAT_SEED_PAIL);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.SUGAR_CUBE);
+        valueLookupBuilder(BlockTags.WOOL).add(ModBlocks.LEATHER_ROLL);
+        valueLookupBuilder(BlockTags.WOOL).add(ModBlocks.FEATHER_BAG);
 
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BEETROOT_SEED_PAIL);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.COCOA_BEANS_PAIL);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.MELON_SEED_PAIL);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.PUMPKIN_SEED_PAIL);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.WHEAT_SEED_PAIL);
-
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.SUGAR_CUBE);
-
-        getOrCreateTagBuilder(BlockTags.WOOL).add(ModBlocks.LEATHER_ROLL);
-        getOrCreateTagBuilder(BlockTags.WOOL).add(ModBlocks.FEATHER_BAG);
     }
 }

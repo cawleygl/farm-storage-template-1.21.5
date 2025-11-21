@@ -1,0 +1,7 @@
+{
+  "parent": "farm-storage:block/template_pail_block",
+  "textures": {
+    "front": "farm-storage:block/wheat_seed_pail_front",
+    "top": "farm-storage:block/wheat_seed_pail_top"
+  }
+}

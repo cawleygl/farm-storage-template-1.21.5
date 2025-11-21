@@ -10,6 +10,8 @@ public class ModRegistries {
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.BEETROOT_BOX, 0.85F);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.CARROT_CRATE, 0.85F);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.POTATO_SACK, 0.85F);
+        CompostingChanceRegistry.INSTANCE.add(ModBlocks.RED_MUSHROOM_BASKET, 0.85F);
+        CompostingChanceRegistry.INSTANCE.add(ModBlocks.BROWN_MUSHROOM_BASKET, 0.85F);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.COCOA_BEANS_PAIL, 0.85F);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.BEETROOT_SEED_PAIL, 0.50F);
         CompostingChanceRegistry.INSTANCE.add(ModBlocks.MELON_SEED_PAIL, 0.50F);
@@ -24,6 +26,8 @@ public class ModRegistries {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.EGG_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BROWN_EGG_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLUE_EGG_BASKET, 60, 20);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.RED_MUSHROOM_BASKET, 60, 20);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BROWN_MUSHROOM_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.POTATO_SACK, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.POISONOUS_POTATO_SACK, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.COCOA_BEANS_PAIL, 60, 20);

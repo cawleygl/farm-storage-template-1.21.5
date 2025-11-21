@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side": "farm-storage:block/apple_bushel_side",
-    "bottom": "farm-storage:block/apple_bushel_bottom",
-    "top": "farm-storage:block/apple_bushel_top",
-    "particle": "farm-storage:block/apple_bushel_top"
-  }
-}

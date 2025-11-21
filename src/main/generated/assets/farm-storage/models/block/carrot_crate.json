@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "farm-storage:block/carrot_crate_bottom",
+    "east": "farm-storage:block/carrot_crate_right",
+    "north": "farm-storage:block/carrot_crate_front",
+    "particle": "farm-storage:block/carrot_crate_top",
+    "south": "farm-storage:block/carrot_crate_back",
+    "up": "farm-storage:block/carrot_crate_top",
+    "west": "farm-storage:block/carrot_crate_left"
+  }
+}

@@ -1,7 +1,0 @@
-{
-    "parent": "farm-storage:block/template_pail_block",
-    "textures": {
-        "top": "farm-storage:block/melon_seed_pail_top",
-        "front": "farm-storage:block/melon_seed_pail_front"
-    }
-}
