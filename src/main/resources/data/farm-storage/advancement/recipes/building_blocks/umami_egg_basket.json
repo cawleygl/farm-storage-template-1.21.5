@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_spotted_egg": {
+    "has_umami_egg": {
       "conditions": {
         "items": [
           {
-            "items": "combined-worldgen:spotted_egg"
+            "items": "combined-worldgen:umami_egg"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "farm-storage:spotted_egg_basket"
+        "recipe": "farm-storage:umami_egg_basket"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_spotted_egg"
+      "has_umami_egg"
     ]
   ],
   "rewards": {
     "recipes": [
-      "farm-storage:spotted_egg_basket"
+      "farm-storage:umami_egg_basket"
     ]
   }
 }

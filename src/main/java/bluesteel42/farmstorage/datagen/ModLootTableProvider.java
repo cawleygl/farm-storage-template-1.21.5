@@ -21,6 +21,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BROWN_EGG_BASKET);
         addDrop(ModBlocks.BLUE_EGG_BASKET);
         addDrop(ModBlocks.SPOTTED_EGG_BASKET);
+        addDrop(ModBlocks.UMAMI_EGG_BASKET);
         addDrop(ModBlocks.RED_MUSHROOM_BASKET);
         addDrop(ModBlocks.BROWN_MUSHROOM_BASKET);
         addDrop(ModBlocks.POTATO_SACK);

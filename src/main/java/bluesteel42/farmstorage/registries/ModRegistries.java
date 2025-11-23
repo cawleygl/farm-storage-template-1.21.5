@@ -26,6 +26,8 @@ public class ModRegistries {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.EGG_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BROWN_EGG_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BLUE_EGG_BASKET, 60, 20);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SPOTTED_EGG_BASKET, 60, 20);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.UMAMI_EGG_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.RED_MUSHROOM_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BROWN_MUSHROOM_BASKET, 60, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.POTATO_SACK, 60, 20);

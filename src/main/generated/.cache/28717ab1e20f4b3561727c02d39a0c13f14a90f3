@@ -18,6 +18,7 @@ c467102acb099679b14f7bf8d52abab5a9489f5b assets/farm-storage/blockstates/potato_
 883bcfdbf33bd319ffe02eb5ef140d8da5ac566e assets/farm-storage/blockstates/red_mushroom_basket.json
 da8c8ac3e2ec8d94d6e347b7fe965757c78db324 assets/farm-storage/blockstates/spotted_egg_basket.json
 67f30d06644d49a55397fc5a58cb732e46eafae6 assets/farm-storage/blockstates/sugar_cube.json
+5022074e616b4048399eac0d08e47a63cd366705 assets/farm-storage/blockstates/umami_egg_basket.json
 a394832a4006a9e248f21b8679f6a715bed40f75 assets/farm-storage/blockstates/wheat_seed_pail.json
 9f206196a7163983266671f6be22163b2a7b98be assets/farm-storage/blockstates/white_pumpkin_seed_pail.json
 52b963285f8c8c6186db85319951b3971fa9be2d assets/farm-storage/items/apple_bushel.json
@@ -39,6 +40,7 @@ e6e723fc6ec49112806b3ceab5b97119972893df assets/farm-storage/items/poisonous_pot
 a5e2bcc98580323ef39f6425cee0ec0bed4efdae assets/farm-storage/items/red_mushroom_basket.json
 6e2e1d7faccfe5dbb5e0d9e2f4762f28f7404705 assets/farm-storage/items/spotted_egg_basket.json
 7ab4d7341518eb4789090be1d089829b72317d77 assets/farm-storage/items/sugar_cube.json
+7257955243917234412c8777150d6aa37b0d758b assets/farm-storage/items/umami_egg_basket.json
 865c712c011504d91c47f2b932f08fa54de95427 assets/farm-storage/items/wheat_seed_pail.json
 0ae8d35caa8ae983dd8633f2493982ece2624201 assets/farm-storage/items/white_pumpkin_seed_pail.json
 0a5689606674b193d8b16951fc301747568e6031 assets/farm-storage/models/block/apple_bushel.json
@@ -60,5 +62,6 @@ f79849cbfe432601260624b5e4c0f859173dd539 assets/farm-storage/models/block/melon_
 5758b8ff94e3861ec9fbca2b9c0956663031b0a7 assets/farm-storage/models/block/red_mushroom_basket.json
 0407b358e3a70b221fa161e5775dd0ab980597d6 assets/farm-storage/models/block/spotted_egg_basket.json
 e5880f717557bfb7daba7c51d51cc4a450e558e5 assets/farm-storage/models/block/sugar_cube.json
+15c54fd0fd8b5417166d99a3a7050c7debbc04d9 assets/farm-storage/models/block/umami_egg_basket.json
 474c29d040a8cc18e85cd16f95cd6a662a4cad75 assets/farm-storage/models/block/wheat_seed_pail.json
 e237f246cf115c6003519b9535caba4c25f89a2c assets/farm-storage/models/block/white_pumpkin_seed_pail.json

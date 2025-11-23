@@ -23,6 +23,7 @@ public class ModBlocks {
     public static final Block BROWN_EGG_BASKET = registerCropBlock("brown_egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.GRASS);
     public static final Block BLUE_EGG_BASKET = registerCropBlock("blue_egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.GRASS);
     public static final Block SPOTTED_EGG_BASKET = registerCropBlock("spotted_egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.GRASS);
+    public static final Block UMAMI_EGG_BASKET = registerCropBlock("umami_egg_basket", GlazedTerracottaBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.GRASS);
     public static final Block RED_MUSHROOM_BASKET = registerCropBlock("red_mushroom_basket", GlazedTerracottaBlock::new, MapColor.RED, BlockSoundGroup.GRASS);
     public static final Block BROWN_MUSHROOM_BASKET = registerCropBlock("brown_mushroom_basket", GlazedTerracottaBlock::new, MapColor.SPRUCE_BROWN, BlockSoundGroup.GRASS);
 
@@ -87,6 +88,7 @@ public class ModBlocks {
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.RED_MUSHROOM_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.POISONOUS_POTATO_SACK);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.POTATO_SACK);
+                    itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.UMAMI_EGG_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.SPOTTED_EGG_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.BLUE_EGG_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.BROWN_EGG_BASKET);

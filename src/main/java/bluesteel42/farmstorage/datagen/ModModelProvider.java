@@ -91,6 +91,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.BROWN_EGG_BASKET, BASKET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.BLUE_EGG_BASKET, BASKET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.SPOTTED_EGG_BASKET, BASKET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.UMAMI_EGG_BASKET, BASKET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.RED_MUSHROOM_BASKET, BASKET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.BROWN_MUSHROOM_BASKET, BASKET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.POTATO_SACK, SACK);
@@ -109,9 +110,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
-    }
+    public void generateItemModels(ItemModelGenerator itemModelGenerator) {}
 
     private static Model vanillaBlock(String parent, TextureKey... requiredTextureKeys) {
         return new Model(Optional.of(Identifier.ofVanilla("block/" + parent)), Optional.empty(), requiredTextureKeys);
