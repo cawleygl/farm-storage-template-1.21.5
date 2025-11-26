@@ -82,6 +82,13 @@ public class ModModelProvider extends FabricModelProvider {
                 .put(TextureKey.PARTICLE, getSubId(block, "_top"));
     }
 
+    private static Model vanillaBlock(String parent, TextureKey... requiredTextureKeys) {
+        return new Model(Optional.of(Identifier.ofVanilla("block/" + parent)), Optional.empty(), requiredTextureKeys);
+    }
+    private static Model modBlock(String parent, TextureKey... requiredTextureKeys) {
+        return new Model(Optional.of(Identifier.of(FarmStorage.MOD_ID, "block/" + parent)), Optional.empty(), requiredTextureKeys);
+    }
+
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSingleton(ModBlocks.APPLE_BUSHEL, CUBE_BOTTOM_TOP_PARTICLE);
@@ -112,10 +119,4 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {}
 
-    private static Model vanillaBlock(String parent, TextureKey... requiredTextureKeys) {
-        return new Model(Optional.of(Identifier.ofVanilla("block/" + parent)), Optional.empty(), requiredTextureKeys);
-    }
-    private static Model modBlock(String parent, TextureKey... requiredTextureKeys) {
-        return new Model(Optional.of(Identifier.of(FarmStorage.MOD_ID, "block/" + parent)), Optional.empty(), requiredTextureKeys);
-    }
 }
