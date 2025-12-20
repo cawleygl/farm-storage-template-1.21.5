@@ -28,12 +28,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.POTATO_SACK);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.POISONOUS_POTATO_SACK);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.BEETROOT_SEED_PAIL);
-        valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.COCOA_BEANS_PAIL);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.MELON_SEED_PAIL);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.PUMPKIN_SEED_PAIL);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.GREEN_PUMPKIN_SEED_PAIL);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.WHITE_PUMPKIN_SEED_PAIL);
         valueLookupBuilder(BlockTags.HOE_MINEABLE).add(ModBlocks.WHEAT_SEED_PAIL);
+        valueLookupBuilder(BlockTags.SHOVEL_MINEABLE).add(ModBlocks.CHOCOLATE_BLOCK);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.SUGAR_CUBE);
         valueLookupBuilder(BlockTags.WOOL).add(ModBlocks.LEATHER_ROLL);
         valueLookupBuilder(BlockTags.WOOL).add(ModBlocks.FEATHER_BAG);

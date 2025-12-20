@@ -40,7 +40,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerFarmBlockCompactingRecipes(Items.POTATO, ModBlocks.POTATO_SACK);
                 offerFarmBlockCompactingRecipes(Items.POISONOUS_POTATO, ModBlocks.POISONOUS_POTATO_SACK);
                 offerFarmBlockCompactingRecipes(Items.BEETROOT_SEEDS, ModBlocks.BEETROOT_SEED_PAIL);
-                offerFarmBlockCompactingRecipes(Items.COCOA_BEANS, ModBlocks.COCOA_BEANS_PAIL);
+                offerFarmBlockCompactingRecipes(Items.COCOA_BEANS, ModBlocks.CHOCOLATE_BLOCK);
                 offerFarmBlockCompactingRecipes(Items.WHEAT_SEEDS, ModBlocks.WHEAT_SEED_PAIL);
                 offerFarmBlockCompactingRecipes(Items.FEATHER, ModBlocks.FEATHER_BAG);
                 offerFarmBlockCompactingRecipes(Items.LEATHER, ModBlocks.LEATHER_ROLL);

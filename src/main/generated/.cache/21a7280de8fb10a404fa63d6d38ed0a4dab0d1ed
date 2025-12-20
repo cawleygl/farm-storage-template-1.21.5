@@ -1,4 +1,5 @@
 // 1.21.10	-999999999-01-01T00:00:00	Farm Storage/Tags for minecraft:block
-9072750ab37fffab630f1a40f4b63ff36f01cf56 data/minecraft/tags/block/mineable/hoe.json
+1ff1be56a6debac9b4aa567003f8ee467c97536a data/minecraft/tags/block/mineable/hoe.json
 7c4b500dd96f448f1f32c2836179a62579b7ff33 data/minecraft/tags/block/mineable/pickaxe.json
+e10040165dc55718fb9087fd365d0b92b1b56e91 data/minecraft/tags/block/mineable/shovel.json
 48159010ce5aa464f3244fc6686bdc098bc88a12 data/minecraft/tags/block/wool.json

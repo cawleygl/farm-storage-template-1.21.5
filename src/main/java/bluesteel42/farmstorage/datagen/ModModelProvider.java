@@ -105,10 +105,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.POISONOUS_POTATO_SACK, SACK);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.FEATHER_BAG, BAG);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SUGAR_CUBE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHOCOLATE_BLOCK);
         blockStateModelGenerator.registerAxisRotated(ModBlocks.LEATHER_ROLL, TexturedModel.CUBE_COLUMN);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.BEETROOT_SEED_PAIL, PAIL);
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.COCOA_BEANS_PAIL, PAIL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.MELON_SEED_PAIL, PAIL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.PUMPKIN_SEED_PAIL, PAIL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(ModBlocks.GREEN_PUMPKIN_SEED_PAIL, PAIL);

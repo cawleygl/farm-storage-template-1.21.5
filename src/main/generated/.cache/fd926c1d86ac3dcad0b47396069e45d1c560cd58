@@ -6,7 +6,7 @@ ea6b4db6414f365f3bd15daefbb5762fd78557ab data/farm-storage/advancement/recipes/b
 d07e0de4d1c1a471ce6a12205e7d00a32e481276 data/farm-storage/advancement/recipes/building_blocks/brown_egg_basket.json
 41a004ba3549046c206a1227013441926cc62c5d data/farm-storage/advancement/recipes/building_blocks/brown_mushroom_basket.json
 ce78065f6f246ccdb10bee030ed65498c4077e60 data/farm-storage/advancement/recipes/building_blocks/carrot_crate.json
-79472918ed9b8f81198d62bd19cd35bfc4397fc8 data/farm-storage/advancement/recipes/building_blocks/cocoa_beans_pail.json
+85d94b262260cdc57ef86c0a0a606a613921dc4c data/farm-storage/advancement/recipes/building_blocks/chocolate_block.json
 4779df66f3024f4401f09c6da2a5da3bd9daaf64 data/farm-storage/advancement/recipes/building_blocks/egg_basket.json
 0f3c9d1440f8e8782a89d0c35e87470d15129f78 data/farm-storage/advancement/recipes/building_blocks/feather_bag.json
 1c84fb3614a1e6e46d956f5ea10891f477d5319f data/farm-storage/advancement/recipes/building_blocks/leather_roll.json
@@ -24,7 +24,7 @@ d912d3d0828a5246a3c18daa0ad2cfada22d9e5d data/farm-storage/advancement/recipes/m
 f7110df9f93efa80151312723d84f1275e4bffbe data/farm-storage/advancement/recipes/misc/brown_egg.json
 6eb324230d7a266882f2210ddc6cd5a99a2d9ca9 data/farm-storage/advancement/recipes/misc/brown_mushroom.json
 f11d0b2b9cd4b6b82491ff4020a1368fbe980794 data/farm-storage/advancement/recipes/misc/carrot.json
-a2f08f66ecc7419a2db9ee7d33bb420322f808d6 data/farm-storage/advancement/recipes/misc/cocoa_beans.json
+339e620bdb7f91781625cef3371e6de2dd30f91f data/farm-storage/advancement/recipes/misc/cocoa_beans.json
 583f16aaab8f5feff8770adcce67eb9ed304f732 data/farm-storage/advancement/recipes/misc/egg.json
 bde52eccaab51669d4fe4149359a5c5b4e2faba6 data/farm-storage/advancement/recipes/misc/feather.json
 cfb3c85570cdb2b013ad4e24cfebbc0616abc1c0 data/farm-storage/advancement/recipes/misc/leather.json
@@ -49,8 +49,8 @@ d2c0549e3a3b1098e297aacd86796392f13d9bc0 data/farm-storage/recipe/brown_egg_bask
 5ef559837439f32ac74091ebdc12f057d45a7730 data/farm-storage/recipe/brown_mushroom_basket.json
 e17008e168108eb1ce71157c59e8591eda005983 data/farm-storage/recipe/carrot.json
 0731e7b89ba7ea18364b0fbb3e5516138ba5fffa data/farm-storage/recipe/carrot_crate.json
-db8091367585b857e9d5ce2a396d277d7004db07 data/farm-storage/recipe/cocoa_beans.json
-b15a8e84bf5ca06aa6bc963a11552e6e1c123991 data/farm-storage/recipe/cocoa_beans_pail.json
+2f29d97838f23210f81dd4305c862dab19d6579e data/farm-storage/recipe/chocolate_block.json
+fcf7fb3283138bb84727df867dc010ce024d4036 data/farm-storage/recipe/cocoa_beans.json
 59e7ddb6f683f89ecebdd271a8ba1cadb2e14834 data/farm-storage/recipe/egg.json
 d5249fe7b3fbb4675215480603687dc9d95ba02f data/farm-storage/recipe/egg_basket.json
 8e278bb22d8a7e9fdaf8cb785494f2825ea8fd89 data/farm-storage/recipe/feather.json

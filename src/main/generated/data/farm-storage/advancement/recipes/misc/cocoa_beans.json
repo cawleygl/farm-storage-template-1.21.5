@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cocoa_beans_pail": {
+    "has_chocolate_block": {
       "conditions": {
         "items": [
           {
-            "items": "farm-storage:cocoa_beans_pail"
+            "items": "farm-storage:chocolate_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_cocoa_beans_pail"
+      "has_chocolate_block"
     ]
   ],
   "rewards": {

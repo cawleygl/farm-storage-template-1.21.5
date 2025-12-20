@@ -18,5 +18,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         valueLookupBuilder(ItemTags.HORSE_FOOD).add(ModBlocks.SUGAR_CUBE.asItem());
         valueLookupBuilder(ItemTags.DAMPENS_VIBRATIONS).add(ModBlocks.LEATHER_ROLL.asItem());
         valueLookupBuilder(ItemTags.DAMPENS_VIBRATIONS).add(ModBlocks.FEATHER_BAG.asItem());
+        valueLookupBuilder(ItemTags.PARROT_POISONOUS_FOOD).add(ModBlocks.CHOCOLATE_BLOCK.asItem());
     }
 }

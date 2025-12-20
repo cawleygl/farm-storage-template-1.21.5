@@ -6,7 +6,7 @@ f8793c29a3a08311b4ef670ae6a988a4139ec743 assets/farm-storage/blockstates/beetroo
 c3c0ab476d9fff16ef1ff4df7054645f85a843be assets/farm-storage/blockstates/brown_egg_basket.json
 a700d916337cd5ff2e2db40ee54ce7bddbdd96ed assets/farm-storage/blockstates/brown_mushroom_basket.json
 a0c2d1e0b0baf64b84dbb0339f5118fef8905b6e assets/farm-storage/blockstates/carrot_crate.json
-3fb7a9a212e12eab9d88f7965a7516505d30a1c3 assets/farm-storage/blockstates/cocoa_beans_pail.json
+9971d9508244ee25dbea946c229f5edfc4515087 assets/farm-storage/blockstates/chocolate_block.json
 d9c9592dc59746af7642820b4ded558a17895b14 assets/farm-storage/blockstates/egg_basket.json
 714e6f485e223443d99451806d8acbb1d25935b8 assets/farm-storage/blockstates/feather_bag.json
 2fb769d75473129d42191dcc9ccc6a4545408641 assets/farm-storage/blockstates/green_pumpkin_seed_pail.json
@@ -28,7 +28,7 @@ a394832a4006a9e248f21b8679f6a715bed40f75 assets/farm-storage/blockstates/wheat_s
 de8d86ac7d722ed9bff81677028c7287d1393830 assets/farm-storage/items/brown_egg_basket.json
 13ff97289ed2e7cf4fcb6b4bb4dfb39f706b66d3 assets/farm-storage/items/brown_mushroom_basket.json
 3f4c6da6012d0a3404135072d9e000f83e079717 assets/farm-storage/items/carrot_crate.json
-2ef9e303b49adb7fb2bf1c8e155b6e0381193cad assets/farm-storage/items/cocoa_beans_pail.json
+5ee4292816299857c2a8a967f7128311aa44d600 assets/farm-storage/items/chocolate_block.json
 cea32211fd2798d936ea167c638f09f1514be538 assets/farm-storage/items/egg_basket.json
 f3d38b14129dc5f3b799d7f918f7eced730161f1 assets/farm-storage/items/feather_bag.json
 3fc628b075d161f2e745eef2b2065424b63b13ce assets/farm-storage/items/green_pumpkin_seed_pail.json
@@ -50,7 +50,7 @@ cfde18c66a996dd38079578493c301ff828cb394 assets/farm-storage/models/block/blue_e
 cbef4c0dde80e34c347776c5cfe11a41f3117ace assets/farm-storage/models/block/brown_egg_basket.json
 1d0439929af722d6f4f19ec0e12f253923458bb3 assets/farm-storage/models/block/brown_mushroom_basket.json
 50d0a35c22b88a940769eb8e0322fbc50cfd94c7 assets/farm-storage/models/block/carrot_crate.json
-6920e81ce7b4751c3512037a00a41e00b5b56712 assets/farm-storage/models/block/cocoa_beans_pail.json
+9abe230f5d2c62118e480e7071f88c28c9c9e1b8 assets/farm-storage/models/block/chocolate_block.json
 58b1d9f9548147cae4f3d51dab5891310c79ee63 assets/farm-storage/models/block/egg_basket.json
 43c71240a4c4ad4b4e7ab58c17db19271b1baf96 assets/farm-storage/models/block/feather_bag.json
 8221be9d1a855f53d5054bb196eae349334d6b81 assets/farm-storage/models/block/green_pumpkin_seed_pail.json

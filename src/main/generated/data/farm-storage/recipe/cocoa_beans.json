@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "farm-storage:cocoa_beans_pail"
+    "farm-storage:chocolate_block"
   ],
   "result": {
     "count": 9,

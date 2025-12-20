@@ -1,9 +1,13 @@
 package bluesteel42.farmstorage.block;
 
 import bluesteel42.farmstorage.FarmStorage;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.client.render.BlockRenderLayer;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
@@ -14,7 +18,6 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
-
     public static final Block APPLE_BUSHEL = registerCropBlock("apple_bushel", Block::new, MapColor.RED, BlockSoundGroup.GRASS);
     public static final Block BEETROOT_BOX = registerCropBlock("beetroot_box", Block::new, MapColor.TERRACOTTA_RED, BlockSoundGroup.GRASS);
     public static final Block CARROT_CRATE = registerCropBlock("carrot_crate", GlazedTerracottaBlock::new, MapColor.ORANGE, BlockSoundGroup.GRASS);
@@ -31,7 +34,6 @@ public class ModBlocks {
     public static final Block POISONOUS_POTATO_SACK = registerCropBlock("poisonous_potato_sack", GlazedTerracottaBlock::new, MapColor.YELLOW, BlockSoundGroup.GRASS);
 
     public static final Block BEETROOT_SEED_PAIL = registerCropBlock("beetroot_seed_pail", PailBlock::new, MapColor.TERRACOTTA_WHITE, BlockSoundGroup.GRASS);
-    public static final Block COCOA_BEANS_PAIL = registerCropBlock("cocoa_beans_pail", PailBlock::new, MapColor.SPRUCE_BROWN, BlockSoundGroup.GRASS);
     public static final Block MELON_SEED_PAIL = registerCropBlock("melon_seed_pail", PailBlock::new, MapColor.TERRACOTTA_BLACK, BlockSoundGroup.GRASS);
     public static final Block PUMPKIN_SEED_PAIL = registerCropBlock("pumpkin_seed_pail", PailBlock::new, MapColor.PALE_YELLOW, BlockSoundGroup.GRASS);
     public static final Block GREEN_PUMPKIN_SEED_PAIL = registerCropBlock("green_pumpkin_seed_pail", PailBlock::new, MapColor.PALE_GREEN, BlockSoundGroup.GRASS);
@@ -43,11 +45,21 @@ public class ModBlocks {
             .mapColor(MapColor.WHITE)
             .instrument(NoteBlockInstrument.BASEDRUM)
             .sounds(BlockSoundGroup.CALCITE)
-            .strength(0.75F));
+            .strength(0.5F));
+
+    public static final String CHOCOLATE_BLOCK_PATH = "chocolate_block";
+    public static final Block CHOCOLATE_BLOCK = register(CHOCOLATE_BLOCK_PATH, Block::new,
+            AbstractBlock.Settings.create()
+            .mapColor(MapColor.BROWN)
+            .instrument(NoteBlockInstrument.BASEDRUM)
+            .sounds(BlockSoundGroup.MUD)
+            .strength(0.5F),
+            false,
+            false
+    );
 
     public static final Block FEATHER_BAG = register("feather_bag", FeatherBagBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.WHITE).instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable());
     public static final Block LEATHER_ROLL = register("leather_roll", PillarBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).instrument(NoteBlockInstrument.GUITAR).strength(0.8F).sounds(BlockSoundGroup.WOOL).burnable());
-
 
     private static Block registerCropBlock(String path, Function<AbstractBlock.Settings, Block> factory, MapColor mapColor, BlockSoundGroup sounds) {
         AbstractBlock.Settings settings = AbstractBlock.Settings.create().mapColor(mapColor).instrument(NoteBlockInstrument.BANJO).strength(0.5F).sounds(sounds);
@@ -61,12 +73,38 @@ public class ModBlocks {
         return block;
     }
 
-    private static Block register(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
+    public static Block register(String id, AbstractBlock.Settings settings) {
+        return register(id, Block::new, settings, true, false);
+    }
+    public static Block register(String id, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
+        return register(id, factory, settings, true, false);
+    }
+    public static Block register(
+            String path,
+            Function<AbstractBlock.Settings, Block> factory,
+            AbstractBlock.Settings settings,
+            boolean registerItem,
+            boolean nonOpaqueBlock
+    ) {
         final Identifier identifier = Identifier.of(FarmStorage.MOD_ID, path);
         final RegistryKey<Block> registryKey = RegistryKey.of(RegistryKeys.BLOCK, identifier);
-
         final Block block = Blocks.register(registryKey, factory, settings);
-        Items.register(block);
+
+        if (registerItem) {
+            Items.register(block);
+        }
+
+        if (nonOpaqueBlock) {
+            BlockRenderLayerMap.putBlock(block, BlockRenderLayer.CUTOUT);
+        }
+
+        if (block instanceof SignBlock || block instanceof WallSignBlock) {
+            BlockEntityType.SIGN.addSupportedBlock(block);
+        } else if (block instanceof HangingSignBlock || block instanceof WallHangingSignBlock) {
+            BlockEntityType.HANGING_SIGN.addSupportedBlock(block);
+        } else if (block instanceof ShelfBlock) {
+            BlockEntityType.SHELF.addSupportedBlock(block);
+        }
 
         return block;
     }
@@ -74,7 +112,6 @@ public class ModBlocks {
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
                 .register((itemGroup) -> {
-                    itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.COCOA_BEANS_PAIL);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.MELON_SEED_PAIL);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.WHITE_PUMPKIN_SEED_PAIL);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.GREEN_PUMPKIN_SEED_PAIL);
@@ -83,6 +120,7 @@ public class ModBlocks {
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.WHEAT_SEED_PAIL);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.FEATHER_BAG);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.LEATHER_ROLL);
+                    itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.CHOCOLATE_BLOCK);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.SUGAR_CUBE);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.BROWN_MUSHROOM_BASKET);
                     itemGroup.addAfter(Items.HAY_BLOCK, ModBlocks.RED_MUSHROOM_BASKET);

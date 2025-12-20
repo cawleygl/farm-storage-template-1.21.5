@@ -1,7 +1,0 @@
-{
-  "parent": "farm-storage:block/template_pail_block",
-  "textures": {
-    "front": "farm-storage:block/cocoa_beans_pail_front",
-    "top": "farm-storage:block/cocoa_beans_pail_top"
-  }
-}

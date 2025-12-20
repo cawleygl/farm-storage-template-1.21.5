@@ -1,6 +1,7 @@
 package bluesteel42.farmstorage;
 
 import bluesteel42.farmstorage.block.ModBlocks;
+import bluesteel42.farmstorage.item.ModItems;
 import bluesteel42.farmstorage.registries.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class FarmStorage implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModBlocks.initialize();
+		ModItems.initialize();
 		ModRegistries.registerCompostables();
 		ModRegistries.registerFlammables();
 		LOGGER.info("Hello Fabric world!");
