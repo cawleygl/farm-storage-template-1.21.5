@@ -1,6 +1,7 @@
 package bluesteel42.farmstorage.datagen;
 
 import bluesteel42.farmstorage.FarmStorage;
+import bluesteel42.combinedworldgen.item.ModItems;
 import bluesteel42.farmstorage.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -44,6 +45,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerFarmBlockCompactingRecipes(Items.WHEAT_SEEDS, ModBlocks.WHEAT_SEED_PAIL);
                 offerFarmBlockCompactingRecipes(Items.FEATHER, ModBlocks.FEATHER_BAG);
                 offerFarmBlockCompactingRecipes(Items.LEATHER, ModBlocks.LEATHER_ROLL);
+
+                offerFarmBlockCompactingRecipes(ModItems.SPOTTED_EGG, ModBlocks.SPOTTED_EGG_BASKET);
+                offerFarmBlockCompactingRecipes(ModItems.UMAMI_EGG, ModBlocks.UMAMI_EGG_BASKET);
+                offerFarmBlockCompactingRecipesSpecifyingBaseItemRecipe(ModItems.GREEN_PUMPKIN_SEEDS, ModBlocks.GREEN_PUMPKIN_SEED_PAIL);
+                offerFarmBlockCompactingRecipesSpecifyingBaseItemRecipe(ModItems.WHITE_PUMPKIN_SEEDS, ModBlocks.WHITE_PUMPKIN_SEED_PAIL);
 
                 offerFarmBlockCompactingRecipesSpecifyingBaseItemRecipe(Items.MELON_SEEDS, ModBlocks.MELON_SEED_PAIL);
                 offerFarmBlockCompactingRecipesSpecifyingBaseItemRecipe(Items.PUMPKIN_SEEDS, ModBlocks.PUMPKIN_SEED_PAIL);

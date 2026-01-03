@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_umami_egg": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farm-storage:umami_egg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_umami_egg_basket": {
       "conditions": {
         "items": [
           {
-            "items": "combined-worldgen:umami_egg"
+            "items": "farm-storage:umami_egg_basket"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "farm-storage:umami_egg_basket"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_umami_egg"
+      "has_umami_egg_basket"
     ]
   ],
   "rewards": {
     "recipes": [
-      "farm-storage:umami_egg_basket"
+      "farm-storage:umami_egg"
     ]
   }
 }
